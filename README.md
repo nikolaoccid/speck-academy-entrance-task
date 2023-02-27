@@ -18,7 +18,7 @@ This project uses the following technologies:
 - JavaScript
 
 ## Installation
-To install the Slider task, simply clone this repository to your local machine:
+To install the task, simply clone this repository to your local machine:
 
 
 ```console
