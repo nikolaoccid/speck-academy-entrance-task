@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speck Academy 2023</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <section class="container column-direction bg-white center padding-left-right">
+    <header>
+      <h1>My technologies</h1>
+    </header>
+    <div>
+      <form class="gap-25px" name="technologiesInput" action="" method="POST" onSubmit="handleSubmit(event);return false;">
+        <input type="text" id="technology" name="technology"
+               placeholder="Enter new technology..."
+               required minlength="3" maxlength="20">
+        <input type="button" value="Add" onclick="handleSubmit(event)">
+      </form>
+      <a href="#" onclick="removeAllItems();return false;">Remove all items</a>
+    </div>
+    <ul class="technologies gap-25px">
+      <li class="spacer"></li>
+    </ul>
+  </section>
+</body>
+</html>
