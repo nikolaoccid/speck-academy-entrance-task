@@ -22,7 +22,7 @@ To install the task, simply clone this repository to your local machine:
 
 
 ```console
-foo@bar:~$ git clone https://github.com/speck-academy-entrance-task.git
+foo@bar:~$ git clone https://github.com/nikolaoccid/speck-academy-entrance-task.git
 ```
 ## Usage
 
